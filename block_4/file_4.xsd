@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Cheeseburger">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="bun"/>
+        <xs:element ref="cheese"/>
+        <xs:element ref="ketchup"/>
+        <xs:element ref="letuce"/>
+        <xs:element ref="mayo"/>
+        <xs:element ref="meat"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bun" type="xs:string"/>
+  <xs:element name="cheese">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ketchup">
+    <xs:complexType mixed="true">
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="letuce">
+    <xs:complexType mixed="true">
+      <xs:attribute name="fresh" use="required" type="xs:boolean"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mayo">
+    <xs:complexType mixed="true">
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="meat" type="xs:string"/>
+</xs:schema>

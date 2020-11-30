@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cheeseburger>
+    <bun>top bun</bun>
+    <letuce fresh="true">just a one leaf</letuce>
+    <ketchup name="Heinz">not too much</ketchup>
+    <cheese type="cheddar">Extra Cheese</cheese>
+    <cheese type="cheddar">Extra Cheese</cheese>
+    <cheese type="cheddar">Extra Cheese</cheese>
+    <cheese type="cheddar">Extra Cheese</cheese>
+    <cheese type="cheddar">Extra Cheese</cheese>
+    <meat>medium rare</meat>
+    <mayo name="Sm">just a touch</mayo>
+    <bun>bottom bun</bun>
+</Cheeseburger>

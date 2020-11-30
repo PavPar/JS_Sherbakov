@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE burger SYSTEM "file_2.dtd">
+<burger>
+    <bun>top bun</bun>
+    <letuce fresh="true">just a one leaf</letuce>
+    <ketchup name="Heinz">not too much</ketchup>
+    <meat>medium rare</meat>
+    <mayo name="Sm">just a touch</mayo>
+    <bun>bottom bun</bun>
+</burger>

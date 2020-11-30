@@ -1,0 +1,15 @@
+<!DOCTYPE burger
+[
+<!ELEMENT burger (bun,ketchup,letuce,mayo,meat)+>
+<!ELEMENT bun (#PCDATA)>
+<!ELEMENT ketchup (#PCDATA)>
+<!ATTLIST ketchup
+  name CDATA #REQUIRED>
+<!ELEMENT letuce (#PCDATA)>
+<!ATTLIST letuce
+  fresh CDATA #REQUIRED>
+<!ELEMENT mayo (#PCDATA)>
+<!ATTLIST mayo
+  name CDATA #REQUIRED>
+<!ELEMENT meat (#PCDATA)>
+]>

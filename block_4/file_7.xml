@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notes>
+    <note id='1'>
+        <title>Buy books</title>
+        <description>Need to buy new books</description>
+    </note>
+    <note id='2'>
+        <title>Buy food</title>
+        <description>Stuff to make a hamburger</description>
+    </note>
+    <note id='3'>
+        <title>Cook some food</title>
+        <description>Make a Cheeseburger and Hamburger</description>
+    </note>
+</notes>
+
